@@ -1,0 +1,104 @@
+body::-webkit-scrollbar{
+    display: none;
+}
+body{
+    margin: 0;
+    padding: 5rem 10rem 2rem 10rem;
+    font-family: 'Roboto', sans-serif;
+    background: #E9ECEF;
+
+}
+.nav-container {
+    background: #444444;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 1rem 0 1rem 0;
+}
+.navbar {
+    padding: 1rem 2rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.site-title{
+    color: #a11d19;
+}
+.nav-item {
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 0 1rem 1rem 0;
+}
+.nav-item a{
+    color: #fefefe;
+}
+.nav-item a:hover{
+    font-weight: 600;
+}
+.icon a{
+    color: #a11d19!important;
+}
+a:hover{
+    text-decoration: none;
+}
+.page-title{
+    color:darkslateblue;
+}
+.sub-title{
+    color: goldenrod;
+    font-weight: 600;
+}
+.home-description{
+    color: #777777;
+    font-weight: 600;
+
+}
+.product-list {
+    margin: 2rem 41rem auto;
+    text-decoration: none;
+}
+.home-list {
+    list-style: circle;
+    color: #888;
+    font-weight: 500;
+}
+.card{
+    background: transparent;
+    border:none;
+}
+.cards{
+    padding: 1rem;
+    margin: 0 auto;
+    height: 450px;
+}
+.card-title {
+    margin-bottom: .75rem;
+    color: #444;
+    font-weight: 500;
+    text-align: center;
+}
+.card-description {
+    font-size: 0.7rem;
+    padding: 1.5rem;
+    text-align: justify;
+    color: #777;
+}
+
+.card-img img{
+    width: 45%;
+    margin: 1rem 9.7rem auto;
+}
+.about-us {
+    text-align: justify;
+    font-size: 1rem;
+    margin: 2rem 0 auto;
+}
+
+.mv{
+    font-size: 0.9rem;
+    text-align: justify;
+    margin: 0 0 2rem auto;
+
+}
